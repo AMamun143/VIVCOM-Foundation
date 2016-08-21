@@ -465,3 +465,79 @@ csmall2 {
 	margin-top: 0px;
 	background-color: white;
 }
+
+.hhhh {
+	background-color: white;
+}
+
+.facebook {
+	height: 50px !important;
+	width: 50px !important;
+}
+
+/*Side*/
+
+/*.scl {
+	float:right;
+	width: 270px;
+	margin:25px 0px 25px 10px;
+	padding:20px 0px;
+	background-color:  rgba(255,255,255,0.85);
+	border:1px solid #dddddd;
+	box-shadow: 0px 0px 15px 0px #ccc;
+	-webkit-transition:box-shadow 1.5s;
+	transition:box-shadow 1.5s;
+}
+*/
+.scl:hover {
+	box-shadow: none !important;
+}
+
+.sckcontent {
+	margin: 0px 0px;
+}
+/*.scl h2 {
+	width:220px;
+	margin: 0 auto;
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 1.1em;
+	font-weight: bold;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #cccccc;
+	text-align: center;
+}
+*/
+.scl ul {
+	text-align: center;
+	padding-top: 20px;
+	height:70px;
+}
+
+.scl ul li {
+	display:inline-block !important;
+/*	padding:0px;
+	height:70px;
+	width:70px;
+	margin:0 auto;*/
+}
+
+.scl img {
+	height: 60px;
+	width: 60px;
+	padding:2px;
+	box-shadow: 0px 0px 1px 1px #ccc;
+	-webkit-transition:box-shadow .3s;
+	transition:box-shadow .3s;
+}
+
+.scl li:hover img {
+	box-shadow: 0px 0px 1px 1px #ccc;
+	;
+}
+
+.scl li:active img {
+	box-shadow: 0px 0px 0px 1px #ccc;
+	;
+}
+
