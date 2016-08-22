@@ -15,6 +15,7 @@
 
     <!-- Custom styles for this template -->
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
   </head>
 
   <body>
@@ -29,19 +30,20 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-           <a class="navbar-brand" href="about.html">VIVCOM Foundation</a>
+           <a class="navbar-brand" href="index.html">VIVCOM Foundation</a>
         </div>
         <div class="navbar-collapse collapse navbar-right">
           <ul class="nav navbar-nav">
-            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="index.html">ABOUT US</a></li>
             <li><a href="programs.html">PROGRAMS</a></li>
             <li><a href="tour.html">SLUM TOUR</a></li>
             <li><a href="help.html">HOW YOU CAN HELP</a></li>
             <li><a href="sponsor.html">SPONSOR A CHILD</a></li>
             <li><a href="donate.html">DONATE</a></li>
             <li><a href="contact.html">CONTACT US</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
           </ul>
-        </div><!--/.nav-collapse -->
+        </div>
       </div>
     </div>
     </br>
@@ -52,28 +54,79 @@
   <div id="blue">
       <div class="container">
       <div class="row">
-        <h3>Contact.</h3>
-      </div><!-- /row -->
-      </div> <!-- /container -->
-  </div><!-- /blue -->
+        <h3>Contact us.</h3>
+      </div>
+      </div> 
+  </div>
 
-	 <div id="service">
-	 	<div class="container">
- 			<!-- <div class="row centered"> -->
- 				<div class="col-md-12">
- 					<h2>CONTACT US</h2>
-              <p>Vision For Vulnerable Communities Foundation</br>
-              P.O BOX 72449, Wakiso (Uganda)</br>
-              TEL:&nbsp;&nbsp;&nbsp;&nbsp;+256705152084</br>
-              MOB:&nbsp;&nbsp;&nbsp;&nbsp;+256775152084</br>
-              EMAIL:&nbsp;&nbsp;&nbsp;&nbsp;Info@visionforvulnerablecommunities.org</br>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:syrillkizza@gmail.com</br>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: vivcomfoundation@gmail.com</p>
+  
+<!-- *****************************************************************************************************************
+   MIDDLE CONTENT
+   ***************************************************************************************************************** -->
+
+
+      <!-- Start Content Section -->
+      <section id="content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-9">
+              <h2>Contact Form</h2>   
+
+            <!-- Start Contact Form -->
+            <form role="form" id="contactForm" class="contact-form" data-toggle="validator" class="shake">
+              <div class="form-group">
+                <div class="controls">
+                  <input type="text" id="name" class="form-control" placeholder="Name" required data-error="Please enter your name">
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="controls">
+                  <input type="email" class="email form-control" id="email" placeholder="Email" required data-error="Please enter your email">
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="controls">
+                  <input type="text" id="msg_subject" class="form-control" placeholder="Subject" required data-error="Please enter your message subject">
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="controls">
+                  <textarea id="message" rows="7" placeholder="Massage" class="form-control" required data-error="Write your message"></textarea>
+                  <div class="help-block with-errors"></div>
+                </div>  
+              </div>
+
+              <button type="submit" id="submit" class="btn btn-success"></i> Send Message</button>
+              <div id="msgSubmit" class="h3 text-center hidden"></div> 
+              <div class="clearfix"></div>   
+
+            </form>     
+            <!-- End Contact Form -->
+
+            </div>
+            <div class="col-md-3">
+              <h2 class="big-title">Contact Info</h2>   
+              <div class="information">              
+                <div class="contact-datails">
+                  <p>Vision For Vulnerable Communities Foundation</br>
+                    P.O BOX 72449, Wakiso (Uganda)</br>
+                    TEL:&nbsp;&nbsp;&nbsp;&nbsp;+256705152084</br>
+                    MOB:&nbsp;&nbsp;&nbsp;&nbsp;+256775152084</br>
+                    EMAIL:&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:Info@visionforvulnerablecommunities.org">Info@visionforvulnerablecommunities.org</a></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<a href="mailto:syrillkizza@gmail.com">syrillkizza@gmail.com</a></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<a href="mailto:vivcomfoundation@gmail.com">vivcomfoundation@gmail.com</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-	 	</div><! --/container -->
-	 </div><! --/service -->
+      </section>
+</br>
  
-   <!-- *****************************************************************************************************************
+<!-- *****************************************************************************************************************
    FOOTER
    ***************************************************************************************************************** -->
    <div id="footerwrap">
@@ -101,11 +154,22 @@
             <a href="http://www.monitor.co.ug/artsculture/Reviews/25-year-old-educating-and-raising-orphans-in-Bwaise/-/691232/2847282/-/lm4e2qz/-/index.html" target="_blank">www.monitor.co.ug</a><br/>
             <a href="http://www.observer.ug/lifestyle/42786-ghetto-boys-rise-from-ashes-to-become-head-teachers" target="_blank">www.observer.ug</a><br/>
         </div>
+        </div>
+        </div>br>
+        <div class="row centered">
+        <p>Copyright (c) 2016, VIVCOM Foundation, Love with Action, Love in Truth.</p>
+        </div>
       
-      </div><! --/row -->
-    </div><! --/container -->
-   </div><! --/footerwrap -->
+      </div>
+    </div>
+   </div>
+
+    <!-- Main JS  -->
+    <script type="text/javascript" src="assets/js/jquery-min.js"></script>      
+    <script type="text/javascript" src="assets/js/form-validator.min.js"></script>  
+    <script type="text/javascript" src="assets/js/contact-form-script.js"></script>
 
   </body>
 </html>
 
+  
