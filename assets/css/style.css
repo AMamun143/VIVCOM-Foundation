@@ -34,10 +34,14 @@ p {
 	margin-bottom: 12px; 
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
-	font-size: 14px; 
+	font-size: 16px; 
 	line-height: 24px;
 	color: #384452; 
 	margin-top: 10px; 
+}
+
+ul, ol {
+	font-size: 16px; 
 }
 
 img {
@@ -222,8 +226,8 @@ a:focus {
 
 /* Services Wrap */
 #service {
-	margin-top: 100px;
-	margin-bottom: 80px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 #service i {
@@ -300,27 +304,6 @@ csmall2 {
 	background: #00b3fe;
 }
 
-/* Contact Page */
-#contactwrap {
-	background: url(../img/contact.jpg) no-repeat center top;
-	margin-top: -60px;
-	padding-top:0px;
-	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 400px;
-	width: 100%;
-	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
 
 /* Blog Page */
 .popular-posts { 
