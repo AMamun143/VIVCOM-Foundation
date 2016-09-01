@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="assets/ico/favicon.ico">
 
-    <title>VIVCOM</title>
+    <title>Online form</title>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -20,36 +20,6 @@
 
   <body>
 
-    <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" height="50" width="200"></a>
-        </div>
-        <div class="navbar-collapse collapse navbar-right">
-          <ul class="nav navbar-nav">
-            <li><a href="programs.html">Programs</a></li>
-            <li><a href="help.html">How to help</a></li>
-            <li><a href="fundraising.html">Fundraising</a></li>
-            <li><a href="sponsor.html">Sponsor</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="index.html">About</a></li>
-            <li><a href="shop.html">Shop</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="donate.html" class="btn btn-primary" role="button">Donate</a></li>
-          </ul>
-          <div><a href="tour.html" id="tour" class='pull-right control-group'><h4>Tour for a cause</h4></a></div>
-          </div>
-      </div>
-    </div>
-</br>
-
 <!-- *****************************************************************************************************************
    MIDDLE CONTENT
    ***************************************************************************************************************** -->
@@ -60,90 +30,71 @@
       <section id="content">
         <div class="container">
           <div class="row">
-            <div class="col-md-9">
+          <img class="application" src="assets/img/logo.png" height="150" width="300"></a>
+            <div class="col-md-12">
               <h2>Sponsor a Child Application Form</h2>   
               <h4>Your details</h4>
 
             <!-- Start Contact Form -->
-            <form role="form" id="contactForm" class="contact-form" data-toggle="validator" class="shake">
+            <div class="form-group">
+                    <label for="application">Title:</label>
+                        <label class="checkbox-inline">
+                        <input type="checkbox">Mr
+                        </label>
+                        <label class="checkbox-inline">
+                          <input type="checkbox">Ms
+                        </label>
+                        <label class="checkbox-inline">
+                          <input type="checkbox">Mrs
+                        </label>
+                        <label class="checkbox-inline">
+                          <input type="checkbox">Miss
+                    </label> 
+                    </div>
               <div class="form-group">
-                <div class="controls">
-                  <input type="text" id="title" class="form-control" placeholder="Title" required data-error="Please enter Title">
-                  <div class="help-block with-errors"></div>
-                </div>
-              </div>
+                      <label for="application">First Name:</label>
+                      <input type="text" class="form-control" id="inputData">
+                    </div>
               <div class="form-group">
-                <div class="controls">
-                  <input type="text" id="fName" class="form-control" placeholder="First Name" required data-error="Please enter your first name">
-                  <div class="help-block with-errors"></div>
-                </div>
-              </div>
+                      <label for="application">Last Name:</label>
+                      <input type="text" class="form-control" id="inputData">
+                    </div>
               <div class="form-group">
-                <div class="controls">
-                  <input type="text" id="sex" class="form-control" placeholder="Sex" required data-error="Please enter your sex">
-                  <div class="help-block with-errors"></div>
-                </div>
-              </div>
+                      <label for="application">Sex:</label>
+                      <input type="text" class="form-control" id="inputData">
+                    </div>
               <div class="form-group">
-                <div class="controls">
-                  <input type="text" id="lName" class="form-control" placeholder="Last Name" required data-error="Please enter your last name">
-                  <div class="help-block with-errors"></div>
-                </div>
-              </div>
+                      <label for="application">Address:</label>
+                      <input type="text" class="form-control" id="inputData">
+                    </div>
               <div class="form-group">
-                <div class="controls">
-                  <input type="text" id="address" class="form-control" placeholder="Address" required data-error="Please enter your address">
-                  <div class="help-block with-errors"></div>
-                </div>
-              </div>
+                      <label for="application">City:</label>
+                      <input type="text" class="form-control" id="inputData">
+                    </div>
               <div class="form-group">
-                <div class="controls">
-                  <input type="text" id="city" class="form-control" placeholder="City" required data-error="Please enter your city">
-                  <div class="help-block with-errors"></div>
-                </div>
-              </div>
+                      <label for="application">State:</label>
+                      <input type="text" class="form-control" id="inputData">
+                    </div>
               <div class="form-group">
-                <div class="controls">
-                  <input type="text" id="state" class="form-control" placeholder="State" required data-error="Please enter your state">
-                  <div class="help-block with-errors"></div>
-                </div>
-              </div>
+                      <label for="application">Tel Num:</label>
+                      <input type="text" class="form-control" id="inputData">
+                    </div>
               <div class="form-group">
-                <div class="controls">
-                  <input type="text" id="postal" class="form-control" placeholder="Postal Code" required data-error="Please enter your postal code">
-                  <div class="help-block with-errors"></div>
-                </div>
-              </div>
+                      <label for="application">Mobile:</label>
+                      <input type="text" class="form-control" id="inputData">
+                    </div>
               <div class="form-group">
-                <div class="controls">
-                  <input type="text" id="tel" class="form-control" placeholder="Tel" required data-error="Please enter your phone number">
-                  <div class="help-block with-errors"></div>
-                </div>
-              </div>
+                      <label for="application">Signature</label>
+                      <input type="text" class="form-control" id="inputData">
+                    </div>
               <div class="form-group">
-                <div class="controls">
-                  <input type="text" id="mobile" class="form-control" placeholder="Mobile" required data-error="Please enter your Mobile phone number">
-                  <div class="help-block with-errors"></div>
-                </div>
-              </div>
+                      <label for="application">Date:</label>
+                      <input type="text" class="form-control" id="inputData">
+                    </div>
               <div class="form-group">
-                <div class="controls">
-                  <input type="text" id="signature" class="form-control" placeholder="Signature" required data-error="Please enter detail">
-                  <div class="help-block with-errors"></div>
-                </div>
-              </div>
-              <div class="form-group">
-                <div class="controls">
-                  <input type="text" class="form-control" id="date" placeholder="Date" required data-error="Please enter date">
-                  <div class="help-block with-errors"></div>
-                </div>
-              </div>
-              <div class="form-group">
-                <div class="controls">
-                  <input type="text" id="id" class="form-control" placeholder="Id No" required data-error="Please enter your id no">
-                  <div class="help-block with-errors"></div>
-                </div>
-              </div>
+                      <label for="application">ID Num:</label>
+                      <input type="text" class="form-control" id="inputData">
+                    </div>
               
             <!-- End Contact Form -->
 
@@ -168,49 +119,3 @@
 </br>
 
 
-<!-- *****************************************************************************************************************
-   FOOTER
-   ***************************************************************************************************************** -->
-  <div id="footerwrap">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-        <div class="row centered">
-        <div class="scl">
-          <h4>Social Links</h4>
-          <ul>
-          <li>WHATSAPP NUMBER IS:  +256705152084</li>
-          <li><a href="https://www.facebook.com/search/top/?q=vision%20for%20vulnerable%20communities%20foundation-vivcom%20foundation" target="_blank">FACEBOOK: Vision For Vulnerable Communities Foundation</a></li>
-          </br>
-          <li><a href="https://twitter.com/vivcomfoundat1" target="_blank">Twitter: @vivcomfoundat1</a></li>       
-        </ul>
-        </div>
-        </div>
-      </div>
-      </br>
-        <div class="col-lg-6">
-        <div class="row centered">
-        <h4>URL’S RELATED TO OUR WORK</h4>
-          <ul>
-            <a href="https://www.thisisuganda.org" target="_blank">www.thisisuganda.org</a><br/>
-            <a href="http://www.monitor.co.ug/artsculture/Reviews/25-year-old-educating-and-raising-orphans-in-Bwaise/-/691232/2847282/-/lm4e2qz/-/index.html" target="_blank">www.monitor.co.ug</a><br/>
-            <a href="http://www.observer.ug/lifestyle/42786-ghetto-boys-rise-from-ashes-to-become-head-teachers" target="_blank">www.observer.ug</a><br/>
-            </ul>
-        </div>
-        </div>
-        </div>
-        <div class="row centered">
-        <p>Copyright (c) 2016, VIVCOM Foundation, Love with Action, Love in Truth.</p>
-        </div>
-      
-      </div>
-    </div>
-   </div>
-
-    <!-- Main JS  -->
-    <script type="text/javascript" src="assets/js/jquery-min.js"></script>      
-    <script type="text/javascript" src="assets/js/form-validator.min.js"></script>  
-    <script type="text/javascript" src="assets/js/contact-form-script.js"></script>
-
-  </body>
-</html>

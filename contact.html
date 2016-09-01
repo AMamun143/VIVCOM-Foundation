@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="assets/ico/favicon.ico">
 
-    <title>VIVCOM</title>
+    <title>Vivcom</title>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -36,19 +36,25 @@
           <ul class="nav navbar-nav">
             <li><a href="programs.html">Programs</a></li>
             <li><a href="help.html">How to help</a></li>
-            <li><a href="fundraising.html">Fundraising</a></li>
-            <li><a href="sponsor.html">Sponsor</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="index.html">About</a></li>
-            <li><a href="shop.html">Shop</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="donate.html" class="btn btn-primary" role="button">Donate</a></li>
+            <li><a href="tour.html">Tour for a cause</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">More<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="fundraising.html" id="section">Fundraising</a></li>
+              <li><a href="sponsor.html" id="section">Sponsor</a></li>
+              <li><a href="shop.html" id="section">Shop</a></li>
+              <li><a href="gallery.html" id="section">Gallery</a></li>
+            </ul>
+            <li><a href="donate.html" class="myButton" role="button">Donate</a></li>
+          </li>
           </ul>
-          <div><a href="tour.html" id="tour" class='pull-right control-group'><h4>Tour for a cause</h4></a></div>
           </div>
       </div>
     </div>
 </br>
+
+
 
 
   <!-- *****************************************************************************************************************
@@ -60,9 +66,13 @@
       <div id="service">
       <section id="content">
         <div class="container">
+
+        <div class="col-lg-12">
+                <h1 class="page-header">Contact Form</h1>
+            </div>
+
           <div class="row">
-            <div class="col-md-9">
-              <h2>Contact Form</h2>   
+            <div class="col-md-9">  
 
             <!-- Start Contact Form -->
             <form role="form" id="contactForm" class="contact-form" data-toggle="validator" class="shake">
@@ -118,7 +128,7 @@
       </section>
 </br>
  
-<!-- *****************************************************************************************************************
+ <!-- *****************************************************************************************************************
    FOOTER
    ***************************************************************************************************************** -->
   <div id="footerwrap">
@@ -129,10 +139,9 @@
         <div class="scl">
           <h4>Social Links</h4>
           <ul>
-          <li>WHATSAPP NUMBER IS:  +256705152084</li>
-          <li><a href="https://www.facebook.com/search/top/?q=vision%20for%20vulnerable%20communities%20foundation-vivcom%20foundation" target="_blank">FACEBOOK: Vision For Vulnerable Communities Foundation</a></li>
-          </br>
-          <li><a href="https://twitter.com/vivcomfoundat1" target="_blank">Twitter: @vivcomfoundat1</a></li>       
+          <li>WHATSAPP NUMBER IS:  +256705152084</li></br>
+          <li><a href="https://www.facebook.com/search/top/?q=vision%20for%20vulnerable%20communities%20foundation-vivcom%20foundation" target="_blank"><img src="assets/img/facebook.png"height="20px" width="350px"></a></li>
+          <li><a href="https://twitter.com/vivcomfoundat1" target="_blank"><img src="assets/img/twitter.png"height="20px" width="350px"></a></li>       
         </ul>
         </div>
         </div>
@@ -164,3 +173,4 @@
 
   </body>
 </html>
+
