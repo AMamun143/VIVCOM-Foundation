@@ -17,9 +17,10 @@
 
 body { 
 	background: #ffffff; 
-	margin: 0; 
+	margin-left: 50px;
+	margin-right: 50px;
 	height: 100%; 
-	color: #384452;
+	color: black;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	}
@@ -36,7 +37,7 @@ p {
 	font-weight: 400;
 	font-size: 15px; 
 	line-height: 24px;
-	color: #384452; 
+	color: black; 
 	margin-top: 10px; 
 }
 
@@ -45,7 +46,7 @@ ul, ol {
 }
 
 img {
-	height: auto;
+	/*height: 200;*/
 	max-width: 100%;
 }
 
@@ -62,7 +63,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color:#01b2fe;
+  color:black;
 }
 
 ::-moz-selection  {
@@ -84,9 +85,9 @@ a:focus {
 	BOOTSTRAP MODIFICATIONS & TWEAKS
 ################################################################# */
 .navbar {
-	min-height: 90px;
-	padding-top: 10px;
-	margin-bottom: 0px;
+	min-height: 100px;
+	/*padding-top: 10px;*/
+	/*margin-bottom: 0px;*/
 }
 
 .navbar-brand {
@@ -99,9 +100,10 @@ a:focus {
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: white;
+	margin-top: 20px;
+	color: #00b3fe;
 	font-weight: 700;
-	font-size: 12px;
+	font-size: 14px;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -114,7 +116,7 @@ a:focus {
 }
 
 .navbar-default {
-	background-color: #384452;
+	background-color: white;
 	border-color: transparent;
 }
 
@@ -123,6 +125,8 @@ a:focus {
 }
 
 .dropdown-menu > li > a {
+	margin-top: 50px;
+	margin-right: 50px;
 	color: white;
 	font-weight: 700;
 	font-size: 12px;
@@ -226,8 +230,10 @@ a:focus {
 
 /* Services Wrap */
 #service {
-	margin-top: 0px;
+	background-color:#00b3fe;
+	margin-top: 50px;
 	margin-bottom: 50px;
+	padding-top: 50px;
 }
 
 #service i {
@@ -239,27 +245,28 @@ a:focus {
 
 /* Footer */
 #footerwrap {
+	height: 150px;
 	padding-top: 60px;
-	padding-bottom: 60px;
-	background: #384452;
+	padding-bottom: 20px;
+	background: white;
 }
 
 #footerwrap p {
-	color: #bfc9d3;
+	color: black;
 }
 
 #footerwrap h4 {
-	color: white;
+	color: black;
 }
 
 #footerwrap i {
 	font-size: 30px;
-	color: #bfc9d3;
+	color: black;
 	padding-right: 25px;
 }
 
 #footerwrap i:hover {
-	color: #00b3fe
+	color: #00b3fe;
 }
 
 /*	################################################################
@@ -424,4 +431,16 @@ csmall2 {
 
 .thumb {
     margin-bottom: 30px;
+}
+
+.ctitle {
+	color: black;
+}
+
+#submit {
+	background-color: black;
+}
+
+#tour {
+	margin-right: 0px;
 }
